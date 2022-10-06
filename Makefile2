@@ -1,0 +1,9 @@
+CC   = gcc
+MDIR = mkdir
+
+
+libsp.a : som.o prod.o
+	$(MDIR) $(DIR)
+	ar rv $(DIR)/libsp.a som.o prod.o
+	Ranlib $(DIR)/*
+	$(CC) ppal.c -L$(DIR) -lsp

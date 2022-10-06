@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "som.h": "c",
+        "prod.h": "c",
+        "fahr.h": "c"
+    }
+}
